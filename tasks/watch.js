@@ -1,5 +1,5 @@
 import gulp from 'gulp';
-import {views, styles, browserSync} from './config.js';
+import {views, styles, demo, browserSync} from './config.js';
 
 gulp.task('watch', watchTask);
 
@@ -10,4 +10,5 @@ function watchTask() {
   ]);
 
   gulp.watch(styles.watch, ['styles']);
+  gulp.watch(demo.watch, ['stylesDemo']);
 }

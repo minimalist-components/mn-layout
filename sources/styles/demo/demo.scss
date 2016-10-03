@@ -1,4 +1,23 @@
 body {
   font-family: 'Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
+  margin: 0;
+  font-size: 14px;
+}
+
+code {
+  margin-top: 20px;
+  display: block;
+  padding: 1em 2em;
+  color: gray;
+}
+
+code + .demo {
+  padding: 0 2em 2em;
+}
+
+.demo div {
+  height: 2em;
+  & {background-color: #64B5F6}
+  &:first-child, &:nth-child(2n+3) {background-color: #2196F3}
 }

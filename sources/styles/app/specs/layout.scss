@@ -1,0 +1,36 @@
+.layout-fullscreen {
+  min-height: 100vh;
+  transform: translateZ(0);
+  overflow: auto;
+  box-sizing: border-box;
+
+  > * {
+    padding: 0 1em;
+    box-sizing: border-box;
+  }
+}
+
+.layout-column,
+.layout-row,
+.layout-centered {
+  display: flex;
+}
+
+.layout-column,
+.layout-centered {
+  flex-direction: column;
+}
+
+.layout-row {
+  flex-direction: row;
+}
+
+.layout-centered {
+  align-items: center;
+  justify-content: center;
+
+  > * {
+    padding: 0 1em;
+  }
+}
+
