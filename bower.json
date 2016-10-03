@@ -1,9 +1,9 @@
 {
-  "name": "flexbox-layout",
+  "name": "mn-layout",
   "version": "0.0.1",
   "description": "Responsive layouts on top of CSS3 flexbox",
   "main": [
-    "dist/flexbox-layout.css"
+    "dist/mn-layout.css"
   ],
   "authors": [
     "Darlan Mendonça <darlanmendonca@gmail.com>"
