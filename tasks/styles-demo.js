@@ -1,5 +1,5 @@
 import gulp from 'gulp';
-import {styles} from './config.js';
+import {demo} from './config.js';
 import sass from 'gulp-sass';
 import sourcemaps from 'gulp-sourcemaps';
 import autoprefixer from 'gulp-autoprefixer';
@@ -9,17 +9,17 @@ import gutil from 'gulp-util';
 
 let outputStyle = 'compressed';
 
-gulp.task('styles', stylesTask);
+gulp.task('stylesDemo', stylesDemoTask);
 
-function stylesTask() {
+function stylesDemoTask() {
   gulp
-    .src(styles.src)
+    .src(demo.src)
     .pipe(plumber({errorHandler}))
     .pipe(sourcemaps.init())
     .pipe(sass({outputStyle}))
     .pipe(autoprefixer())
     .pipe(sourcemaps.write('.'))
-    .pipe(gulp.dest(styles.dest))
+    .pipe(gulp.dest(demo.dest))
     .pipe(browserSync.stream({match: '**/*.css'}));
 }
 

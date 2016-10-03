@@ -7,10 +7,14 @@ module.exports = {
     dest: './public/',
   },
   styles: {
-    src: './sources/styles/*.scss',
-    watch: './sources/styles/**/*.scss',
+    src: './sources/styles/app/*.scss',
+    watch: './sources/styles/app/**/*.scss',
     dest: './dist/',
-    sourcemaps: '/sources/styles',
+  },
+  demo: {
+    src: './sources/styles/demo/*.scss',
+    watch: './sources/styles/demo/**/*.scss',
+    dest: './public/',
   },
   lintScripts: [
     './gulpfile.js',
