@@ -5,12 +5,15 @@ Inspired in [angular material layout](https://material.angularjs.org/latest/layo
 
 ![preview image](https://raw.githubusercontent.com/darlanmendonca/flexbox-layout/master/sources/imgs/preview.png)
 
-To see a demo, clone this, and run after install depdendencies, run with gulp
+To see a demo, clone and after install dependencies, run with gulp
+
+
+```sh
+# install dependencies
+npm i
+```
 
 ```
-git clone https://github.com/darlanmendonca/flexbox-layout
-```
-
-```
-cd flexbox-layout && npm i && gulp
+# run demo in local environment
+gulp
 ```
