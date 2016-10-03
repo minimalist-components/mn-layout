@@ -36,3 +36,35 @@
   }
 }
 
+// < 600px
+@media (max-width: 599px) {
+  .layout-xs-row {flex-direction: row}
+  .layout-xs-column {flex-direction: column}
+}
+
+// 600px ~ 959px
+@media (min-width: 600px) and (max-width: 959px) {
+  .layout-sm-row {flex-direction: row}
+  .layout-sm-column {flex-direction: column}
+}
+
+// 960px ~ 1280px
+@media  (min-width: 960px) and (max-width: 1279px) {
+  .layout-md-row {flex-direction: row}
+  .layout-md-column {flex-direction: column}
+}
+
+// 1280px ~ 1919px
+@media  (min-width: 1280px) and (max-width: 19px) {
+  .layout-lg-row {flex-direction: row}
+  .layout-lg-column {flex-direction: column}
+}
+
+// > 1920px
+@media  (min-width: 1920px) {
+  .layout-lg-row {flex-direction: row}
+  .layout-lg-column {flex-direction: column}
+}
+
+
+
