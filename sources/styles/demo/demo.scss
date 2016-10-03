@@ -5,6 +5,11 @@ body {
   font-size: 14px;
 }
 
+h2 {
+  padding: 0 2rem;
+  box-sizing: border-box;
+}
+
 code {
   margin-top: 20px;
   display: block;
@@ -12,8 +17,9 @@ code {
   color: gray;
 }
 
-code + .demo {
+.demo {
   padding: 0 2em 0;
+  margin-bottom: 1em;
 }
 
 .demo div {
