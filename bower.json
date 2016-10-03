@@ -1,0 +1,13 @@
+{
+  "name": "flexbox-layout",
+  "version": "0.0.1",
+  "description": "Responsive layouts on top of CSS3 flexbox",
+  "main": [
+    "dist/flexbox-layout.css"
+  ],
+  "authors": [
+    "Darlan Mendonça <darlanmendonca@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": ""
+}
