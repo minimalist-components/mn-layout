@@ -1,0 +1,23 @@
+@mixin layout-sm {
+  @media (min-width: 600px) {
+    @content;
+  }
+}
+
+@mixin layout-md {
+  @media (min-width: 960px) {
+    @content;
+  }
+}
+
+@mixin layout-lg {
+  @media (min-width: 1280px) {
+    @content;
+  }
+}
+
+@mixin layout-xl {
+  @media (min-width: 1920px) {
+    @content;
+  }
+}

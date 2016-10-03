@@ -1,0 +1,12 @@
+.layout-fullscreen {
+  min-height: 100vh;
+  transform: translateZ(0);
+  overflow: auto;
+  box-sizing: border-box;
+
+  > * {
+    padding: 0 1em;
+    transform: translateZ(0);
+    box-sizing: border-box;
+  }
+}
