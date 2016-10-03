@@ -15,6 +15,7 @@
 .layout-row,
 .layout-centered {
   display: flex;
+  align-content: stretch;
 }
 
 .layout-column,

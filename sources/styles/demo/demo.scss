@@ -13,11 +13,11 @@ code {
 }
 
 code + .demo {
-  padding: 0 2em 2em;
+  padding: 0 2em 0;
 }
 
 .demo div {
-  height: 2em;
+  min-height: 2em;
   & {background-color: #64B5F6}
   &:first-child, &:nth-child(2n+3) {background-color: #2196F3}
 }
