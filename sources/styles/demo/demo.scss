@@ -21,3 +21,9 @@ code + .demo {
   & {background-color: #64B5F6}
   &:first-child, &:nth-child(2n+3) {background-color: #2196F3}
 }
+
+.layout-fullscreen.demo {
+  background-color: #2196F3;
+
+  div {background: none}
+}
