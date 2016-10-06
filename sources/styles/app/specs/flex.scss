@@ -18,10 +18,10 @@
 .flex-90
 .flex-95
 .flex-100 {
-  flex: auto;
   overflow: auto;
 }
 
+.flex {flex-shrink: 1}
 .flex-5 {flex-basis: 5%}
 .flex-10 {flex-basis: 10%}
 .flex-15 {flex-basis: 15%}
@@ -45,6 +45,7 @@
 .flex-100 {flex-basis: 100%}
 
 @include layout-sm {
+  .flex-sm {flex-shrink: 1}
   .flex-sm-5 {flex-basis: 5%}
   .flex-sm-10 {flex-basis: 10%}
   .flex-sm-15 {flex-basis: 15%}
@@ -69,6 +70,7 @@
 }
 
 @include layout-md {
+  .flex-md {flex-shrink: 1}
   .flex-md-5 {flex-basis: 5%}
   .flex-md-10 {flex-basis: 10%}
   .flex-md-15 {flex-basis: 15%}
@@ -93,6 +95,7 @@
 }
 
 @include layout-lg {
+  .flex-lg {flex-shrink: 1}
   .flex-lg-5 {flex-basis: 5%}
   .flex-lg-10 {flex-basis: 10%}
   .flex-lg-15 {flex-basis: 15%}
@@ -117,6 +120,7 @@
 }
 
 @include layout-xl {
+  .flex-xl {flex-shrink: 1}
   .flex-xl-5 {flex-basis: 5%}
   .flex-xl-10 {flex-basis: 10%}
   .flex-xl-15 {flex-basis: 15%}
