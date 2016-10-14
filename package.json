@@ -1,7 +1,7 @@
 {
   "name": "mn-layout",
   "private": true,
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Inspired in [angular material layout](https://material.angularjs.org/latest/layout/introduction), this library help you to develop responsive layouts on top of CSS3 flexbox.",
   "main": ".eslintrc.js",
   "scripts": {
