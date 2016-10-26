@@ -87,3 +87,6 @@ All class has media queries prefix, so, if I want for example, display elements 
   <div class="flex">Lorem</div>
 </div>
 ```
+
+sm                  | md                  | lg                  | xl
+(min-width: 600px)  | (min-width: 960px)  | (min-width: 1280px) | (min-width: 1920px)
