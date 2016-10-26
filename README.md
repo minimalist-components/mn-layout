@@ -90,4 +90,4 @@ All classes has media queries prefixex, so, if I you want for e.g., display elem
 
 sm | md | lg | xl
 ------------ | ------------- | ------------- | -------------
-(min-width: 600px | (min-width: 960px) | (min-width: 1280px) | (min-width: 1920px)
+(min-width: 600px) | (min-width: 960px) | (min-width: 1280px) | (min-width: 1920px)
