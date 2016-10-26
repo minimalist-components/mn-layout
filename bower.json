@@ -1,6 +1,6 @@
 {
   "name": "mn-layout",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Responsive layouts on top of CSS3 flexbox",
   "main": [
     "dist/mn-layout.css"
