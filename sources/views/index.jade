@@ -8,32 +8,39 @@ html(ng-app='prototype')
     include templates/styles
 
   body
-    h2 mn-layout
+    //- h2 mn-layout
+    style.
+      img {max-width: 100%}
 
-    code .layout-row > .flex
-    .demo.layout-row
-      div.flex.flex-sm-50.flex-md-90
-      div.flex
-      div.flex
-      div.flex
-      div.flex
-      div.flex
-      div.flex
-      div.flex
-      div.flex
-      div.flex
-      div.flex
-      div.flex
+    .layout-row
+      .flex: img(src='https://pbs.twimg.com/media/CeKwS_bW8AE8b5G.jpg:large')
+      .flex: img(src='https://pbs.twimg.com/media/CeKwS_bW8AE8b5G.jpg:large')
+      .flex: img(src='https://pbs.twimg.com/media/CeKwS_bW8AE8b5G.jpg:large')
 
-    code .layout-column > .flex
-    .demo.layout-column(style='height: 40vh')
-      div.flex
-      div.flex
-      div.flex
-      div.flex
+    //- code .layout-row > .flex
+    //- .demo.layout-row
+    //-   div.flex.flex-sm-50.flex-md-90
+    //-   div.flex
+    //-   div.flex
+    //-   div.flex
+    //-   div.flex
+    //-   div.flex
+    //-   div.flex
+    //-   div.flex
+    //-   div.flex
+    //-   div.flex
+    //-   div.flex
+    //-   div.flex
 
-    code .layout-fullscreen > *
-    .demo.layout-fullscreen.layout-centered
-      div content
+    //- code .layout-column > .flex
+    //- .demo.layout-column(style='height: 40vh')
+    //-   div.flex
+    //-   div.flex
+    //-   div.flex
+    //-   div.flex
+
+    //- code .layout-fullscreen > *
+    //- .demo.layout-fullscreen.layout-centered
+    //-   div content
       
 
