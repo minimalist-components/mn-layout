@@ -77,7 +77,7 @@ Finally all classes has a media querie using the prefix `sm`, `md` or `lg`. When
 </div>
 ```
 
-All class has media queries prefix, so, if I want for example, display elements in a row in mobile, and greater than display in a row, I can use the following:
+All classes has media queries prefixex, so, if I you want for e.g., display elements in a column in mobile, and greater than display in a row, I can use the following:
 
 ```html
 <!-- by default, will be layout-column, but in small screens and greater, will be a row -->
@@ -90,4 +90,4 @@ All class has media queries prefix, so, if I want for example, display elements 
 
 sm | md | lg | xl
 ------------ | ------------- | ------------- | -------------
-(min-width: 600px) | (min-width: 960px) | (min-width: 1280px) | (min-width: 1920px)
+(min-width: 600px | (min-width: 960px) | (min-width: 1280px) | (min-width: 1920px)
