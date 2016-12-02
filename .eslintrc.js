@@ -1,7 +1,5 @@
-'use strict';
-
-let optional = 1;
-let required = 2;
+const optional = 1
+const required = 2
 
 module.exports = {
   parserOptions: {
@@ -14,7 +12,7 @@ module.exports = {
     protractor: true,
   },
   rules: {
-    semi: [required, 'always'],
+    semi: [required, 'never'],
     curly: [required, 'all'],
     'brace-style': [required, '1tbs'],
     quotes: [required, 'single'],
@@ -42,4 +40,4 @@ module.exports = {
     'keyword-spacing': required,
     'space-unary-ops': required,
   }
-};
+}

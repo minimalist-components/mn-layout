@@ -1,4 +1,4 @@
-import browserSync from 'browser-sync';
+import browserSync from 'browser-sync'
 
 module.exports = {
   views: {
@@ -32,4 +32,4 @@ module.exports = {
     reloadDelay: 100,
     open: false,
   },
-};
+}

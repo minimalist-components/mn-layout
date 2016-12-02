@@ -1,4 +1,4 @@
-import gulp from 'gulp';
+import gulp from 'gulp'
 
 let tasks = [
   'lint',
@@ -7,6 +7,6 @@ let tasks = [
   'views',
   'browser-sync',
   'watch',
-];
+]
 
-gulp.task('default', tasks);
+gulp.task('default', tasks)
