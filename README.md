@@ -7,19 +7,11 @@ Inspired in [angular material layout](https://material.angularjs.org/latest/layo
 
 ### Install
 
-With bower
-
 ```sh
 bower install --save mn-layout
 ```
 
-Or just download the main file ```dist/mn-layout.css``` in your project, and make a reference to their, like:
-
-```html
-<head>
-  <link rel="stylesheet" href="path/to/dist/mn-layout.css">
-</head>
-```
+Or just download the main files, located in [dist/](https://github.com/minimalist-components/mn-layout/tree/master/dist)
 
 ### Usage
 
