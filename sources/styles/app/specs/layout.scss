@@ -23,22 +23,22 @@
 }
 
 @include layout-sm {
-  .layout-sm-row {flex-direction: row}
+  .layout-sm-row {flex-direction: row; align-items: center}
   .layout-sm-column {flex-direction: column}
 }
 
 @include layout-md {
-  .layout-md-row {flex-direction: row}
+  .layout-md-row {flex-direction: row; align-items: center}
   .layout-md-column {flex-direction: column}
 }
 
 @include layout-lg {
-  .layout-lg-row {flex-direction: row}
+  .layout-lg-row {flex-direction: row; align-items: center}
   .layout-lg-column {flex-direction: column}
 }
 
 @include layout-xl {
-  .layout-xl-row {flex-direction: row}
+  .layout-xl-row {flex-direction: row; align-items: center}
   .layout-xl-column {flex-direction: column}
 }
 
