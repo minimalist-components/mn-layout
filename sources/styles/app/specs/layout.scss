@@ -1,44 +1,44 @@
-.layout-column,
-.layout-row,
-.layout-centered,
-.layout-sm-row,
-.layout-md-row,
-.layout-lg-row,
-.layout-xs-column,
-.layout-sm-column,
-.layout-md-column,
-.layout-lg-column, {
+.mn-layout-column,
+.mn-layout-row,
+.mn-layout-centered,
+.mn-layout-sm-row,
+.mn-layout-md-row,
+.mn-layout-lg-row,
+.mn-layout-xs-column,
+.mn-layout-sm-column,
+.mn-layout-md-column,
+.mn-layout-lg-column, {
   display: flex;
   align-content: stretch;
 }
 
-.layout-row {
+.mn-layout-row {
   flex-direction: row;
   align-items: center;
 }
 
-.layout-column,
-.layout-centered {
+.mn-layout-column,
+.mn-layout-centered {
   flex-direction: column;
 }
 
 @include layout-sm {
-  .layout-sm-row {flex-direction: row; align-items: center}
-  .layout-sm-column {flex-direction: column}
+  .mn-layout-sm-row {flex-direction: row; align-items: center}
+  .mn-layout-sm-column {flex-direction: column}
 }
 
 @include layout-md {
-  .layout-md-row {flex-direction: row; align-items: center}
-  .layout-md-column {flex-direction: column}
+  .mn-layout-md-row {flex-direction: row; align-items: center}
+  .mn-layout-md-column {flex-direction: column}
 }
 
 @include layout-lg {
-  .layout-lg-row {flex-direction: row; align-items: center}
-  .layout-lg-column {flex-direction: column}
+  .mn-layout-lg-row {flex-direction: row; align-items: center}
+  .mn-layout-lg-column {flex-direction: column}
 }
 
 @include layout-xl {
-  .layout-xl-row {flex-direction: row; align-items: center}
-  .layout-xl-column {flex-direction: column}
+  .mn-layout-xl-row {flex-direction: row; align-items: center}
+  .mn-layout-xl-column {flex-direction: column}
 }
 
