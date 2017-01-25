@@ -1,17 +1,15 @@
 # mn-layout
 
 Responsive layouts, with CSS3 flexbox. 
-Inspired in [angular material layout](https://material.angularjs.org/latest/layout/introduction).
+Inspired by [angular material layout](https://material.angularjs.org/latest/layout/introduction).
 
 <!-- ![preview mn-layout](https://raw.githubusercontent.com/minimalist-components/mn-layout/master/sources/imgs/preview.png) -->
 
 ### Install
 
 ```sh
-bower install --save mn-layout
+npm install --save mn-layout
 ```
-
-Or just download the main files, located in [dist/](https://github.com/minimalist-components/mn-layout/tree/master/dist)
 
 ### Usage
 
