@@ -1,6 +1,6 @@
 {
   "name": "mn-layout",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Responsive layouts on top of CSS3 flexbox",
   "main": "dist/mn-layout.css",
   "files": [
@@ -19,6 +19,13 @@
     "css3"
   ],
   "author": "Darlan Mendonça <darlanmendonca@gmail.com> (https://github.com/darlanmendonca)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/minimalist-components/mn-layout.git"
+  },
+  "bugs": {
+    "url": "https://github.com/minimalist-components/mn-layout/issues"
+  },
   "homepage": "https://github.com/minimalist-components/mn-layout",
   "license": "MIT",
   "devDependencies": {
