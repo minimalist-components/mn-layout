@@ -23,12 +23,14 @@ module.exports = {
   browserSync: browserSync.create(),
   browserSyncOptions: {
     server: {
+      index: 'demo.html',
       baseDir: [
-        './public',
-        './dist',
+        './docs',
+        '.',
       ],
     },
     notify: false,
+    ui: false,
     reloadDelay: 100,
     open: false,
   },
